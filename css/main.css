@@ -146,3 +146,154 @@ a {
        width: 700px;
        height: 700px;
 }
+
+.main-machine {
+    background-color: #f2f3f5;
+    padding: 80px 0px;
+}
+
+.main-machine-h2 {
+    padding-left: 16%;
+    font-size: 70px;
+    line-height: 1.05;
+    margin-bottom: 12px;
+    font-weight: 900;
+    cursor: default;
+    color: #333;
+    
+}
+
+.h2-color {
+    color: #04ddb2;
+    padding-left: 16%;
+    margin-top: -73px;
+    display: flex;
+    align-items: center;
+}
+
+.main-machine-p {
+    font-size: 26px;
+    padding-left: 16%;
+    color: #333;
+
+}
+
+.main-jpg {
+    width: auto;
+    height: 850px;
+    margin-left: 5%;
+    
+}
+
+.main-container-cards {
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+   
+}
+
+.main-container-cards img {
+    width: auto;
+    height: 60px;
+    border-radius: 24px;
+}
+
+.main-container-cards h2 {
+    color: #333;
+    line-height: 1.5;
+}
+
+.main-container-cards p {
+    font-size: 22px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.main-container-h3 {
+    padding-left: 18%;
+    margin-bottom: 50px;
+}
+
+.main-container-h3 h3 {
+    font-size: 50px;
+    line-height: 1.05;
+    font-weight: 900;
+    color: #333;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.main-h3-color {
+    color: #04ddb2;
+    margin-right: 12px;
+}
+
+
+.main-container-h3 p {
+    font-size: 25px;
+    line-height: 1.5;
+    color: #333;
+    margin-top: -30px;
+}
+
+
+.main-cards-white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.main-cards-white h4 {
+    font-size: 24px;
+    color:#333;
+}
+
+.main-cards-white p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-top: -20px;
+    color: #333;
+}
+
+.cards-white-one, .cards-white-two, .cards-white-three {
+   background-color: #fff;
+   width: 220px;
+   height: 300px;
+   margin: 16px;
+   padding: 40px;
+   border-radius: 24px;
+   box-shadow: 80px;  
+}
+
+.cards-video {
+    width: auto;
+    height: 100px;
+}
+
+.card-border-color, .card-border-gris  {
+    border-radius: 24px;
+    width: 115px;
+    height: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.card-border-color {
+    background-color: #04ddb2;
+    color: #fff;
+}
+
+.card-border-gris {
+    background-color: #eef0f2;
+    color: #333;
+}
