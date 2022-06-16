@@ -9,7 +9,7 @@
     <link href="//db.onlinewebfonts.com/c/5ffb14c9ea41286ce553095f37596444?family=Lab+Grotesque+Web" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<div class="header">
+<header class="header">
 <div class="header-menu">
     <div class="header-logo">        
         <a href="./Overwiew.html"> <img class="header-logo-svg" src="./IMG/svgexport-1.svg" alt="logo" > </a>
@@ -23,11 +23,11 @@
     </div>
     <div class="header-right">
         <button class="header-download-button">
-            <a href="/">Download</a>
+            <a href="">Download</a>
         </button>
     </div>
 </div>
-</div>
+</header>
 <main>
     <div class="main-train">
         <h1 class="train-left">
@@ -38,41 +38,50 @@
     </div>
     <div class="button-main">
         <button class="main-download-button">
-            <a href="/">Download</a>
+            <a href="">Download</a>
         </button>
 
         <button class="main-watch-button">
-            <a href="/">Watch Tour</a>
+            <a href="">Watch Tour</a>
             <img src="./IMG/bx-play-circle.png" alt="circle">
         </button>
     </div>
+
     <div class="main-mp4">
-        <video autoplay loop>
+        <video class="main-mp4" autoplay loop>
             <source src="./IMG/video.mp4" type="video/mp4"> 
         </video>
     </div>
-    <div class="main-machine">
-        <h2 class="main-machine-h2">
-            Machine learning <br> made <span class="h2-color">easy</span>
-        </h1>
-        <p class="main-machine-p">Lobe has everything you need to bring your machine learning <br> to life. Just show it examples of what you want it to <br> learn, and it automatically trains a custom machine learning <br> model that can be shipped in your app.</p>
-         <img class="main-jpg" src="./IMG/screenshot@2x.jpg" alt="jpg">
+
+   <div class="main-machine">
+    <div class="main-machine-container">
+        <h2>Machine learning <br> made</h2>
+        <div>easy</div>
+        <p>Lobe has everything you need to bring your machine learning <br> to life. Just show it examples of what you want it to <br> learn, and it automatically trains a custom machine learning <br> model that can be shipped in your app.</p>
+    </div>
+    <img class="main-jpg" src="./IMG/screenshot@2x.jpg" alt="jpg">
 
          <div class="main-container-cards">  
          <div>
-             <img  src="./IMG/Easy.jpg" alt="easy">
+            <video autoplay loop>
+                <source src="./IMG/lightbulb.mp4" type="video/mp4"> 
+            </video>
              <h2>Easy to Use</h2>
             <p>Designed to be easy enough <br> anyone to use. No code or <br> experience required</p>
          </div>
          
          <div>
-             <img src="./IMG/bxs-lock-alt.jpg" alt="lock">
+            <video autoplay loop>
+                <source src="./IMG/lock.mp4" type="video/mp4"> 
+            </video>
              <h2>Free and Private</h2>
              <p>Train for free on your own <br> computer without uploading <br> your data to the cloud.</p>
          </div>
 
          <div>
-            <img src="./IMG/Anywhere.jpg" alt="export">
+            <video autoplay loop>
+                <source src="./IMG/ship.mp4" type="video/mp4"> 
+            </video>
             <h2>Export Anywhere</h2>
             <p>Available for Mac and <br> Windows. Export your model <br> and ship it on any platform you <br> choose.</p>
         </div>
@@ -110,6 +119,7 @@
                 <div class="card-border-gris">COMING SOON</div>
             </div>
     </div>
+</div>
 </main>
 <section>
     <div class="section-h2">
@@ -123,7 +133,7 @@
     </video>
 
     <div class="section-h2-header">
-        <span class="section-h2-color-header">Label</span>
+        <span>Label</span>
         <h2>your images</h2>
         <p>Collect bursts using your webcam, or drag in <br> a folder of images from your computer. Then <br> quickly label your images to create a machine <br> learning dataset.</p>
     </div>
@@ -133,65 +143,214 @@
     </video>
 
     <div class="section-h2-header2">
-        <span class="section-h2-color-header2">Train</span>
+        <span>Train</span>
         <h2>automatically</h2>
         <p>Automatically train on your own computer without any <br> setup or configuration. Understand the strengths and <br> weaknesses of your model with live visual results.</p>
     </div>
-        
     <video class="section-finally-video"  autoplay loop>
         <source src="./IMG/Finally.mp4" type="video/mp4">
     </video>
+        
     
     <div class="section-h2-header3">
-        <span class="section-h2-color-header3">Use</span>
+        <span>Use</span>
         <h2>your model</h2>
         <p>Use your model with your webcam or <br> images from your computer. Improve your <br> results by giving your  model feedback on its <br> predictions, then finally export it to your<br> ap</p>
     </div>
 </section>
 
 <section class="section-section-container">
+    <div class="section-section-export">
         <span>Export</span>
         <div>Anywhere</div>
         <p>When you are done, you can export your model to a variety of <br> industry standard formats and ship it on any platform you <br> choose.</p> 
+    </div>
         <button class="section-section-button">
-            <a href="/">Learn More</a>
+            <a href="">Learn More</a>
             <img src="./IMG/chevron-right-solid-24.png" alt="bx">
         </button>
+
         <div class="section-bubbles-container">
+            
             <div class="figure-bubble">
                 <img src="./IMG/descarga.svg" alt="apple">
             </div>
-        </div>
-
-        <div class="section-bubbles-container2">
+      
             <div class="figure-bubble2">
                 <img src="./IMG/descarga (1).svg" alt="framer">
             </div>
-        </div>
-
-        <div class="section-bubbles-container3">
+      
             <div class="figure-bubble3">
                 <img src="./IMG/descarga (2).svg" alt="google">
             </div>
-        </div>
 
-        <div class="section-bubbles-container4">
+    
             <div class="figure-bubble4">
                 <img src="./IMG/descarga (3).svg" alt="arduino">
             </div>
+    </div>
+
+    <div class="section-bubbles-container2">
+            
+        <div class="figure-bubble5">
+            <img src="./IMG/descarga (4).svg" alt="arduino">
+        </div>
+ 
+        <div class="figure-bubble6">
+            <img src="./IMG/descarga (5).svg" alt="arduino">
         </div>
 
-        <div class="section-bubbles-container5">
-            <div class="figure-bubble5">
-                <img src="./IMG/descarga (4).svg" alt="arduino">
-            </div>
+        <div class="figure-bubble7">
+            <img src="./IMG/descarga (7).svg" alt="google">
         </div>
 
-        <div class="section-bubbles-container6">
-            <div class="figure-bubble6">
-                <img src="./IMG/descarga (5).svg" alt="arduino">
-            </div>
+        <div class="figure-bubble8">
+            <img src="./IMG/descarga (8).svg" alt="arduino">
         </div>
+
+        <div class="figure-bubble9">
+            <img src="./IMG/descarga (9).svg" alt="arduino">
+        </div>
+</div>
+
+<div class="section-bubbles-container3">
+            
+    <div class="figure-bubble10">
+        <img src="./IMG/descarga (10).svg" alt="framer">
+    </div>
+
+    <div class="figure-bubble11">
+        <img src="./IMG/descarga (11).svg" alt="framer">
+    </div>
+
+    <div class="figure-bubble12">
+        <img src="./IMG/descarga (12).svg" alt="google">
+    </div>
+    <div class="figure-bubble13">
+        <img src="./IMG/descarga(13).svg" alt="arduino">
+    </div>
+</div>
+
+<div class="testimonials-cards">
+    <div class="testimonials-cards-1">
+     <img src="/IMG/avatar1@2x.jpg" alt="avatar1">   
+     <p>As soon as I used Lobe I <br> was completely blown away. <br> I don’t have to spend days <br> trying to learn machine <br> learning. Simply label some <br> images and boom, it really <br> just works.</p>
+     <span class="testimonials-span">Chris Cachor</span>
+     <span class="testimonials-span-color">Software Engineer</span>
+    </div>
+
+    <div class="testimonials-cards-2">
+        <img src="/IMG/avatar2@2x.jpg" alt="avatar2">   
+        <p>We’ve been using Lobe to <br> quickly process previously <br> untapped sources of data <br> so that we can improve our <br> models of nature- <br> dependent tourism to <br> promote better decision- <br> making in our oceans.</p>
+        <span class="testimonials-span">Kate Longley-Wood</span>
+        <span class="testimonials-span-color">Ocean Mapper</span>
+    </div>
+
+    <div class="testimonials-cards-3">
+        <img src="/IMG/avatar3@2x.jpg" alt="avatar3">   
+        <p>Lobe is so easy and takes <br> so much of the complicated <br> stuff out of machine <br> learning. Even my kid was <br> begging me to sit in front of <br> the computer and <br> categorize my bees for me.</p>
+        <span class="testimonials-span">Sean Cusack</span>
+        <span class="testimonials-span-color">Beekeeper</span>
+    </div>
+</div>
+
+    <div class="examples-container">
+            <span class="example-tittle-gris">Lobe</span>
+            <span class="example-tittle-color">Examples</span>
+        <p>One tool, endless possibilities. Discover all the things you can <br> train your app to do with Lobe.</p>
+    </div>
+
+<div class="examples-media-container">
+    <div class="examples-media">
+        <video autoplay loop>
+            <source src="./IMG/Microscope.mp4" type="video/mp4">
+        </video>
+
+        <video autoplay loop>
+            <source src="./IMG/Telescope.mp4" type="video/mp4">
+        </video>
+
+        <video autoplay loop>
+            <source src="./IMG/bee.mp4" type="video/mp4">
+        </video>
+
+        <video autoplay loop>
+            <source src="./IMG/plant_.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="examples-media">
+        <video autoplay loop>
+            <source src="./IMG/Trainer.mp4" type="video/mp4">
+        </video>
+
+        <video autoplay loop>
+            <source src="./IMG/hand_.mp4" type="video/mp4">
+        </video>
+
+        <video autoplay loop>
+            <source src="./IMG/Safety.mp4" type="video/mp4">
+        </video>
+
+        <video autoplay loop>
+            <source src="./IMG/Equipment.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
 </section>
+<footer>
+    <div class="footer-tittle">
+        <span>Train your app</span>
+        <span>with Lobe</span>
+        <button>
+            <a href="">Download</a>
+        </button>
+    </div>
+        <div class="footer-linea"></div>
+        <div class="footer-footer-column">
+            <img class="header-logo-svg" src="./IMG/svgexport-1.svg" alt="logo" >
+            <div>A product by Microsoft.</div>
+            <div>All rights reserved.</div>
+            <div>© Microsoft 2021</div>
+        </div>
+        
+        <div class="footer-footer-column-2">
+            <div>About</div>
+            <a href="">Download</a>
+            <a href="">Overview</a>
+            <a href="">Examples</a>
+            <a href="">Blog</a>
+        </div>
+
+        <div class="footer-footer-column-3">
+            <div>General</div>
+            <a href="">Notice</a>
+            <a href="">Lincense</a>
+            <a href="">Press Inquiry</a>
+            <a href="">Press Imagenes</a>
+        </div>
+
+        <div class="footer-footer-column-4">
+            <div>Resources</div>
+            <a href="">Help</a>
+            <a href="">Tour</a>
+            <a href="">Contact</a>
+            <a href="">Privacy</a>
+        </div>
+              
+        <div class="footer-social">
+            <div class="footer-social-circle">
+                <img src="./IMG/message-rounded-solid-24.png" alt="Facebook">
+            </div>
+
+            <div class="footer-social-circle" >
+            <img src="./IMG/twitter-logo-24.png" alt="Twitter">
+            </div>
+
+            <div class="footer-social-circle">
+            <img src="./IMG/youtube-logo-24.png" alt="Youtube">
+        </div>          
+        </div>
+</footer>
 </body>
 </html>
